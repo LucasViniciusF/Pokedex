@@ -14,9 +14,9 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
         <div class="flip-card-inner">
             <div class="flip-card-front">>
                 <li class="card ${elementTypes[0]}">
+                <img class="card-image" alt"${name}" src="https://img.pokemondb.net/sprites/home/normal/${name}.png">
                     <h2 class="card-title">${id}. ${name}</h2>
                     <p class="card-subtitle">${elementTypes.join(' | ')}</p>
-                    <img class="card-image" alt"${name}" src="https://img.pokemondb.net/sprites/home/normal/${name}.png">
                 </li>
             </div>
             <div class="flip-card-back">

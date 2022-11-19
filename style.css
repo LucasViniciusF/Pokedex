@@ -1,6 +1,6 @@
 body {
     background: #EFEFBB;
-    background: linear-gradient(to right, gray, rgb(77, 77, 83));
+    background: linear-gradient(to right, rgb(90, 234, 245), rgb(195, 85, 238));
     color: white;
     margin: 0;
     font-family: 'Comfortaa', cursive;
@@ -87,10 +87,6 @@ h1 {
 
 .normal {
     background-color: #F5F5F5;
-}
-
-.card:hover {
-    animation: bounce 0.5s linear;
 }
 
 .flip-card {
